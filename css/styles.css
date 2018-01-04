@@ -45,6 +45,10 @@ body{
   background-image:url("img/bunnyback.jpg");
 }
 
+.bunny h3{
+  font-style: oblique;
+}
+
 .corgi{
   border: 1px inset black;
   margin-top: 10px;
@@ -53,10 +57,18 @@ body{
   padding: 10px;
 }
 
+.corgi h3{
+  font-family: fantasy;
+}
+
 .cat{
   border: 1px inset black;
   margin-top: 5px;
   margin-bot: 5px;
   background-color: lightyellow;
   padding: 10px;
+}
+
+.cat h3{
+  font-style: oblique;
 }
