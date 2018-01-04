@@ -1,10 +1,16 @@
 img {
   width:400px;
   height:250px;
+  border: 1px solid black;
+
 }
 
+body{
+    text-align: center;
+    background-color: lightyellow;
+}
 .title {
-  text-align: center;
+
   text-transform: uppercase;
   font-weight: bold;
   font-family: cursive;
@@ -14,4 +20,43 @@ img {
 
 .title h2{
   color: purple;
+}
+
+.animals{
+  border: 2px double black;
+  padding: 20px;
+  background-color: gray;
+}
+
+.animals h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: oblique;
+  color: pink;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.bunny{
+  border: 1px inset black;
+  margin-top: 5px;
+  margin-bot: 5px;
+  padding: 10px;
+  background-color: lightyellow;
+  background-image:url("img/bunnyback.jpg");
+}
+
+.corgi{
+  border: 1px inset black;
+  margin-top: 10px;
+  margin-bot: 10px;
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+.cat{
+  border: 1px inset black;
+  margin-top: 5px;
+  margin-bot: 5px;
+  background-color: lightyellow;
+  padding: 10px;
 }
